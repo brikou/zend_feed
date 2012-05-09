@@ -1,0 +1,37 @@
+{
+    "name": "brikou/zend_feed",
+    "type": "library",
+    "description": "",
+    "description": "Zend Framework Feed Library",
+    "keywords": [
+        "zend framework",
+        "feed"
+    ],
+    "homepage": "https://github.com/brikou/zend_feed",
+    "license": "Zend Framework",
+    "authors": [
+        {
+            "name": "Zend Technologies USA, Inc.",
+            "homepage": "http://framework.zend.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "brikou/zend_cache": "*",
+        "brikou/zend_config": "*",
+        "brikou/zend_controller": "*",
+        "brikou/zend_date": "*",
+        "brikou/zend_db": "*",
+        "brikou/zend_feed": "*",
+        "brikou/zend_http": "*",
+        "brikou/zend_loader": "*",
+        "brikou/zend_registry": "*",
+        "brikou/zend_stdlib": "*",
+        "brikou/zend_uri": "*",
+        "brikou/zend_validator": "*",
+        "brikou/zend_version": "*"
+    },
+    "autoload": {
+        "psr-0": { "Zend\\Feed": "" }
+    }
+}
